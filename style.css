@@ -8,7 +8,6 @@ h1 {
     height: 500px;
     border-radius: 50%;
     left: 37.5%;
-    top: 10%;
     margin-top: 100px;
     overflow: hidden;
     border: 1px solid black;
@@ -95,12 +94,12 @@ h1 {
 
 #optionsFont {
     font-family: Cursive, Futura;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 #optionsFont2 {
     font-family: Cursive, Futura;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 #restartButton:hover,
