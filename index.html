@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <audio id="alertGreen" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg"></audio>
+    <audio id="alertRed" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mpeg"></audio>
+    <audio id="alertYellow" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mpeg"></audio>
+    <audio id="alertBlue" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mpeg"></audio>
+    <div class="container-fluid">
+        <center>
+            <h1>Simon Game</h1>
+            <div id="circle1">
+                <div class="pad" id="0" ontouchstart=""></div>
+                <div class="pad" id="1" ontouchstart=""></div>
+                <div class="pad" id="2" ontouchstart=""></div>
+                <div class="pad" id="3" ontouchstart=""></div>
+                <div id="circle2" ontouchstart="">
+                    <h1 id="startFont">Start!</h1>
+                </div>
+            </div>
+            <button id="restartButton" ontouchstart=""><h1 id="optionsFont">Restart</h1></button>
+            <button id="strictButton" ontouchstart=""><h1 id="optionsFont2">Strict Off</h1></button>
+
+        </center>
+    </div>
+
+</body>
+
+</html>
